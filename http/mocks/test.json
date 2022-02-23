@@ -1,0 +1,23 @@
+{
+    "request": {
+        "method": "GET",
+        "path": "/v1/users/3",
+        "query": {
+            "page": [
+                "1",
+                "2"
+            ],
+            "per_page": [
+                "10"
+            ]
+        }
+    },
+    "response": {
+        "status_code": 200,
+        "body": {
+            "id": 1,
+            "name": "Slim Shady",
+            "email": "test@email.com"
+        }
+    }
+}
